@@ -10,3 +10,6 @@
 /ParserGenerator/ScanAction.cs
 /ParserGenerator/Scanner.cs
 /GPPG.csproj.user
+/obj
+/.vs/GPPG/DesignTimeBuild
+GPpg.csproj.old
