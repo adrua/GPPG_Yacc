@@ -3,3 +3,10 @@
 ################################################################################
 
 *.suo
+/bin/Debug
+/obj/Debug
+/ParserGenerator/GplexBuffers.cs
+/ParserGenerator/Parser.cs
+/ParserGenerator/ScanAction.cs
+/ParserGenerator/Scanner.cs
+/GPPG.csproj.user
