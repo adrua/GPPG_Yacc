@@ -13,7 +13,7 @@ using QUT.GPGen.Lexers;
 
 [assembly: CLSCompliant( true )]
 namespace QUT.GPGen {
-    class GPCG {
+    public class GPCG {
         // Main return codes
         const int MC_OK = 0;
         const int MC_FILEERROR = 1;
@@ -41,7 +41,7 @@ namespace QUT.GPGen {
         public static string OutFileName;
         public static string LinesFilename;
 
-        private static int Main( string[] args ) {
+        public static int Main( string[] args ) {
             Stream inputFile = null;
 
             Grammar grammar = null;
